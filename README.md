@@ -6,7 +6,7 @@ One page website coded in PHP for David Chambers.
 
 This website is made for Mr. Chambers to showcase is work as a music artist and is part of his marketing strategy made by @Clemence Roullet Renoleau.
 
-##Technology
+## Technology
 
 This website is mostly coded in PHP for the reception of contact form and email sending.
 The webiste is also using APIs and is using Javascript and JSON format. 
@@ -21,8 +21,8 @@ To install this website on any Share Hosting server (e.g. HostGator, GoDaddy) pl
 
 ## Contributors
 
-*Design :
+Design :
 Clemence Roullet Renoleau <clemence.renoleau@gmail.com>
 
-*Development :
+Development :
 Thomas Leclercq  <thomasleclercq90010@gmail.com>
