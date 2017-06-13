@@ -38,7 +38,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#latest-release">Latest Release</a></li>
             <li><a href="#biography">Biography</a></li>
             <li><a href="#albums">Albums</a></li>
@@ -49,29 +49,11 @@
       </div>
     </nav>
 
-    <div class="container-fluid" style="margin-top: 80px">
+    <div class="container-fluid">
 
     	<section>
-    	<div class="row">
-	    		<div id="title" class="col-sm-4 col-sm-offset-1">
-	    			<h1>David Chambers</h1>
-	    			<div id="social-media">
-	    				<ul class="nav nav-justified">
-	    					<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-itunes fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-vimeo fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-	    					<li><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-	    				</ul>
-	    			</div>
-	    		</div><!-- /.Title -->
-	    	</div>
 
-    		<div class="row">
+    	<div class="row">
 		    <!-- Carousel
 		    ================================================== -->
 		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -79,42 +61,14 @@
 		      <ol class="carousel-indicators">
 		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		        <li data-target="#myCarousel" data-slide-to="1"></li>
-		        <li data-target="#myCarousel" data-slide-to="2"></li>
 		      </ol>
 
-		      <div class="carousel-inner" role="listbox">
+		      <div id="carousel" class="carousel-inner" role="listbox">
 
-		        <div class="item active">
-		          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-		          <div class="container">
-		            <div class="carousel-caption">
-		              <h1>Example headline.</h1>
-		              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-		            </div>
-		          </div>
+		        <div id="first-slide" class="item active">
 		        </div><!-- /.Item -->
 
-		        <div class="item">
-		          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-		          <div class="container">
-		            <div class="carousel-caption">
-		              <h1>Another example headline.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-		            </div>
-		          </div>
-		        </div><!-- /.Item -->
-
-		        <div class="item">
-		          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-		          <div class="container">
-		            <div class="carousel-caption">
-		              <h1>One more for good measure.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-		            </div>
-		          </div>
+		        <div id="second-slide" class="item">
 		        </div><!-- /.Item -->
 
 		      </div><!-- /.inner Carousel -->
@@ -131,8 +85,27 @@
 		   </div>
 
 		   <div id="CTA" class="col-xs-2 col-xs-offset-5">
-		   	<a id="CTA-button" href="#get-in-touch" class="btn btn-warning btn-lg">Get in touch</a>
-		   </div>
+		   	<a href="#contact" class="btn btn-warning btn-lg CTA-button">Get in touch</a>
+		</div>
+
+		<div class="row">
+    		<div id="title" class="col-sm-4 col-sm-offset-1">
+    			<h1>David Chambers</h1>
+    			<div id="social-media">
+    				<ul class="nav nav-justified">
+    					<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-itunes fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-vimeo fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+    					<li><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+    				</ul>
+    			</div>
+    		</div><!-- /.Title -->
+    	</div>
 
     	</section><!-- /.Header Section -->
 
@@ -180,59 +153,81 @@
     	<section id="biography">
     		<div class="row">
 	    		<h2>Biography</h2>
-	    		<div class="col-sm-8 col-sm-offset-2">
+	    		<div id="biography-text-content" class="col-sm-8 col-sm-offset-2">
 	    			<p>
-		    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		    			David Chambers started his music career in London playing in clubs by night and holding down various ad hoc jobs including working on spotlights at the London Palladium for Tommy Steele’s long running “Singin’ In The Rain”, and selling ‘swag’ merchandise outside of music venues across the U.K and Europe. Opportunities to work for London music agents and promoters eventuated in international concert tour management and working with international music promoters for many artists including Paul McCartney, The Rolling Stones, David Bowie, Pink Floyd, U2, Bruce Springsteen, Elton John, Deborah Harry, Iggy Pop and Nirvana.
+		    			<br>
+		    			<br>
+						David Chambers now based in Sydney has continued his musical ventures with the recording of both albums and singles in the recent years: Bouquet of Barbed Wire (2011), In The Next Life (2014) and Resolution (2017). Collaborating with producer singer-songwriter Cam Mackellar for the first two albums and self producing the latest release, David Chambers has been supported by a range of talented singers and players: Lisa Callingham, Madeleine Slattery, Kevin Elsey, Dave Wray, Brendan J. Beame, Josh Ahearn, Paul Jackson, Denny Ball, Luke Gerber, Anatoli Torjinski, Janine Simmel and long standing collaborator Ronnie “Wood” Harvey. 
+						<br>
+						<br>
+						Recording recently at Sony Music Studios Sydney, David Chambers is continuing work on his next album of self penned songs.
 	    			</p>
 	    		</div>
 	    	</div>
 
 	    	<div class="row">
-	    		<h2 id="discography"></h2>
-	    		<div class="col-sm-10 col-sm-offset-1">
+	    		<h2 id="discography">Discography</h2>
+	    		<div class="col-sm-8 col-sm-offset-2">
 
 	    			<div class="row">
 			    		<div class="disc-item">
-			    			<div class="col-sm-2"><i class="fa fa-music fa-3x"></i></div>
-			    			<div class="disc-history col-sm-7">
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
 			    				<p>2010</p>
-			    				<p>October: bla bla</p>
-			    				<p>February: bla bla bla</p>
+			    				<p>February: Release of single «A Strangers Heart»</p>
+								<p>October: Release of single «Charity Girl»</p>
 			    			</div>
 			    		</div>
 			    	</div><!-- /.disc item -->
 	    			<div class="row">
 			    		<div class="disc-item">
-			    			<div class="col-sm-2"><i class="fa fa-music fa-3x"></i></div>
-			    			<div class="disc-history col-sm-7">
-			    				<p>2010</p>
-			    				<p>October: bla bla</p>
-			    				<p>February: bla bla bla</p>
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
+			    				<p>2011</p>
+			    				<p>December: Release of album «Bouquet of Barbed Wire»</p>
 			    			</div>
 			    		</div>
 			    	</div><!-- /.disc item -->
 	    			<div class="row">
 			    		<div class="disc-item">
-			    			<div class="col-sm-2"><i class="fa fa-music fa-3x"></i></div>
-			    			<div class="disc-history col-sm-7">
-			    				<p>2010</p>
-			    				<p>October: bla bla</p>
-			    				<p>February: bla bla bla</p>
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
+			    				<p>2012</p>
+			    				<p>January: Release of single «She’s an Angel»</p>
+			    				<p>March: Release of single «El Paso»</p>
 			    			</div>
 			    		</div>
 			    	</div><!-- /.disc item -->
 	    			<div class="row">
 			    		<div class="disc-item">
-			    			<div class="col-sm-2"><i class="fa fa-music fa-3x"></i></div>
-			    			<div class="disc-history col-sm-7">
-			    				<p>2010</p>
-			    				<p>October: bla bla</p>
-			    				<p>February: bla bla bla</p>
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
+			    				<p>2013</p>
+			    				<p>September: Release of album «In The Next Life»</p>
+			    				<p>October: Release of single and video single «Hannie»</p>
+			    				<p>November: Release of single and video single «Save Me»</p>
+			    			</div>
+			    		</div>
+			    	</div><!-- /.disc item -->
+			    	<div class="row">
+			    		<div class="disc-item">
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
+			    				<p>2014</p>
+			    				<p>November : Release of single «Castaway»</p>
+			    			</div>
+			    		</div>
+			    	</div><!-- /.disc item -->
+			    	<div class="row">
+			    		<div class="disc-item">
+			    			<div class="disc-list-style col-sm-2"><i class="fa fa-music fa-3x"></i></div>
+			    			<div class="disc-history col-sm-9 pull-right">
+			    				<p>2017</p>
+			    				<p>January: Release of single double A side and video single ”Valentine Blue/Hypnotised» </p>
+			    				<p>April: Release of single and video single “In The Next Life”</p>
+			    				<p>May: Release of album “Resolution”</p>
+			    				<p>June : Release of single and video single “A Touch of Class”</p>
 			    			</div>
 			    		</div>
 			    	</div><!-- /.disc item -->
@@ -241,9 +236,13 @@
     	</section><!-- ./ Biography -->
 
     	<section id="get-in-touch" class="mini-section">
+	    	
+	    	<div id="get-in-touch-background" >
+    		</div>
+
     		<div class="row">
-	    		<h2>Get in touch</h2>
 	    		<div class="col-sm-8 col-sm-offset-2">
+	    			<h2>Get in touch</h2>
 	  				<ul class="nav nav-justified">
 	  					<li><a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
 	  					<li><a href=""><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a></li>
@@ -265,42 +264,54 @@
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail col-sm-8 col-sm-offset-2">
-			      <a href="#">	
-			      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
-			      </a>
+			    	<div>
+				      <a href="#">	
+				      	<div class="vinyl vinyl-show"></div>
+				      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
+				      	<div class="disc-player"></div>
+				      </a>
+				    </div>
 			      <div class="caption">
 			        <h3>Resolution</h3>
 			        <p>By David Chambers</p>
 			        <p>2017 - 8 songs</p>
-			        <p><a href="#" class="btn btn-warning" role="button">credits</a></p>
+			        <p><a href="#" class="btn btn-warning CTA-button" role="button">credits</a></p>
 			      </div>
 			    </div>
 			  </div><!-- /.Thumbnail -->
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail col-sm-8 col-sm-offset-2">
-			      <a href="">	
-			      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
-			      </a>
+			    	<div>
+				      <a href="#">	
+				        <div class="vinyl"></div>
+				      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
+				      	<div class="disc-player"></div>
+				      </a>
+				    </div>
 			      <div class="caption">
 			        <h3>Resolution</h3>
 			        <p>By David Chambers</p>
 			        <p>2017 - 8 songs</p>
-			        <p><a href="#" class="btn btn-warning" role="button">credits</a></p>
+			        <p><a href="#" class="btn btn-warning CTA-button" role="button">credits</a></p>
 			      </div>
 			    </div>
 			  </div><!-- /.Thumbnail -->
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail col-sm-8 col-sm-offset-2">
-			      <a href="">	
-			      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
-			      </a>
+			    	<div>
+				      <a href="#">	
+				      	<div class="vinyl"></div>
+				      	<img src="https://lh3.googleusercontent.com/g3Q2l1S-jnmf0m4dKNrSHa_JuQ4AXo4e4LvUnW25sCzbNIgitJV86ceOAfgYfW9wWmPgK3a3=w170" alt="...">
+				      	<div class="disc-player"></div>
+				      </a>
+				    </div>
 			      <div class="caption">
 			        <h3>Resolution</h3>
 			        <p>By David Chambers</p>
 			        <p>2017 - 8 songs</p>
-			        <p><a href="#" class="btn btn-warning" role="button">credits</a></p>
+			        <p><a href="#" class="btn btn-warning CTA-button" role="button">credits</a></p>
 			      </div>
 			    </div>
 			  </div><!-- /.Thumbnail -->
@@ -335,6 +346,7 @@
 
     	<section id="gallery">
     		<div class="row">
+    			<h2>Gallery</h2>
     			<div class="col-sm-10">
     				
     				<!-- Gallery Image -->
@@ -351,56 +363,51 @@
     		<h2>Partners</h2>
 		    <!-- Carousel
 		    ================================================== -->
-		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <div id="partnersCarousel" class="carousel slide" data-ride="carousel">
 		      <!-- Indicators -->
-		      <ol class="carousel-indicators">
-		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		        <li data-target="#myCarousel" data-slide-to="1"></li>
-		        <li data-target="#myCarousel" data-slide-to="2"></li>
+		      <ol class="carousel-indicators hidden">
+		        <li data-target="#partnersCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#partnersCarousel" data-slide-to="1"></li>
 		      </ol>
 
 		      <div class="carousel-inner" role="listbox">
 
 		        <div class="item active">
-		          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
 		          <div class="container">
 		            <div class="carousel-caption">
-		              <h1>Example headline.</h1>
-		              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+		              <ul class="nav nav-justified">
+		              	<li><a href="https://hughwade.com">Hugh <br> Wade</a></li>
+		              	<li><a href="http://cammackellar.com">Cam <br> Mackellar</a></li>
+		              	<li><a href="http://evanpapageorgiou.com/">Evan <br>Papageaorgiou</a></li>
+		              	<li><a href="http://www.blackfootsound.com.au">Blackfoot <br>Sound</a></li>
+		              	<li><a href="https://www.amyfreemanmusic.com">Amy <br>Freeman</a></li>
+		              	<li><a href="http://www.nickfranklin.net">Nick <br>Franklin</a></li>
+		              </ul>
 		            </div>
 		          </div>
 		        </div><!-- /.Item -->
 
 		        <div class="item">
-		          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
 		          <div class="container">
 		            <div class="carousel-caption">
-		              <h1>Another example headline.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-		            </div>
-		          </div>
-		        </div><!-- /.Item -->
-
-		        <div class="item">
-		          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-		          <div class="container">
-		            <div class="carousel-caption">
-		              <h1>One more for good measure.</h1>
-		              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-		              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+		              <ul class="nav nav-justified">
+		              <li><a href="http://www.laurenorrell.com">Laure <br>Norrell</a></li>
+		              <li><a href="https://www.interestingshit.com/author/ithornton/">Interesting <br>Shit</a></li>
+		              <li><a href="http://www.andrewgoldie.com">Andrew <br>Goldie</a></li>
+		              <li><a href="http://dennyball.tripod.com">Denny <br>Ball</a></li>
+		              <li><a href="https://www.vevo.com/">Vevo</a></li>
+		              </ul>
 		            </div>
 		          </div>
 		        </div><!-- /.Item -->
 
 		      </div><!-- /.inner Carousel -->
 
-		      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		      <a class="left carousel-control" href="#partnersCarousel" role="button" data-slide="prev">
 		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		        <span class="sr-only">Previous</span>
 		      </a>
-		      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		      <a class="right carousel-control" href="#partnersCarousel" role="button" data-slide="next">
 		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		        <span class="sr-only">Next</span>
 		      </a>
@@ -416,18 +423,32 @@
     	</section><!-- /.press -->
 
     	<section id="contact">
-    		<form></form>
+    		<h2>Contact</h2>
+    		<form class="form">
+    			<div class="form-group col-sm-4 col-sm-offset-1">
+    				<input type="text" name="name" placeholder="Name *" class="form-control input-lg" required>
+    			</div>
+    			<div class="form-group col-sm-4 col-sm-offset-2">
+    				<input type="email" name="email" placeholder="Email *" class="form-control input-lg" required>
+    			</div>
+    			<div class="form-group col-sm-10 col-sm-offset-1">
+    				<textarea placeholder="Message *" name="message" class="form-control input-lg" required></textarea>
+    			</div>
+    			<div class="form-group col-sm-2 col-sm-offset-5">
+    				<button role="submit" class="btn btn-warning btn-lg CTA-button">Send an email</button>
+    			</div>
+    		</form>
     		<div class="col-sm-4 col-sm-offset-4">
   				<ul class="nav nav-justified">
-  					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-itunes" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-  					<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+  					<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-itunes fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-vimeo fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+  					<li><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
   				</ul>
   			</div>
     	</section><!-- /.contact -->

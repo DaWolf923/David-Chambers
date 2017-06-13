@@ -3,14 +3,16 @@
 *	Generals
 *
 */
-*
+body
 {
+	background-color: #000;
 	color: white;
-	background-color: black;
 }
 section
 {
-	height: 100vh;
+	height: 90vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .mini-section
 {
@@ -20,10 +22,22 @@ h1
 {
 	text-transform: uppercase;
 	text-shadow: 4px 1px 2px rgba(0,0,0,.5);
+	font-size: 35px;
 }
 h2
 {
+	text-transform: uppercase;
 	text-align: center;
+	margin-top: initial;
+	margin-bottom: 50px;
+}
+p
+{
+	font-size: 22px;
+}
+a
+{
+	color: white;
 }
 /*
 *
@@ -33,9 +47,35 @@ h2
 
 /*
 *
+*	Title
+*
+*/
+#title
+{
+	position: absolute;
+	top: 150px;
+}
+
+#title a
+{
+	color: white;
+}
+
+
+/*
+*
 *	Carousel Style
 *
 */
+#carousel
+{
+	height: 90vh;
+	margin-top: -5vh;
+}
+.carousel-inner > div
+{
+	height: 100%;
+}
 #myCarousel ol li
 {
 	padding: 10px;
@@ -44,11 +84,251 @@ h2
 #CTA
 {
 	position: absolute;
-	bottom: 70px;
+	bottom: 20vh;
 }
-#CTA-button
+.CTA-button
 {
 	font-size: 32px;
 	color: black;
 	background-color: yellow;
+	text-transform: uppercase;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px rgba(0,0,0,.8);
+}
+#first-slide
+{
+	background: url("/David-Chambers/public/img/David-Chambers-Piano-min.jpg") center no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+#second-slide
+{
+	background-image: url("../img/David-Chambers-Portrait-Slider-min.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+/*
+*
+*	Latest Release
+*
+*/
+#latest-release
+{
+	background: url("/David-Chambers/public/img/David-Chambers-Guitar-min.png") center no-repeat;
+	background-size: cover;
+}
+
+/*
+*
+*	Biography 
+*
+*/
+#biography
+{
+	height: initial;
+	min-height: 100vh;
+	background: url("../img/David-Chambers-Turn-Table-min.png") center no-repeat;
+	background-size: cover;	
+	padding-bottom: 50px;
+}
+#biography-text-content
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,.5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#biography p
+{
+	text-align: justify;
+}
+
+.disc-list-style
+{
+	text-align: left;
+}
+.disc-history
+{
+	background-color: rgba(0,0,0,.4);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*
+*
+*	Get in touch
+*
+*/
+
+#get-in-touch
+{
+	height: 25vh;
+	background-size: cover;		
+	background-color: blue;
+	background: rgba(0,0,150,0.4);
+	position: relative;
+}
+#get-in-touch-background
+{
+	position: absolute;
+	top: 0;
+	background: url("../img/David-Chambers-Social-Network.png") no-repeat center;
+	height: 100%;
+	width: 100%;
+}
+
+/*
+*
+*	Albums
+*
+*/
+#albums
+{
+	background: url("../img/David-Chambers-headset-and-Mic-min.png") center no-repeat;
+	background-size: cover;	
+}
+#albums .thumbnail
+{
+	background-color: initial;
+	border: initial;
+}
+#albums .thumbnail a img
+{
+	width: 80%;	
+	position: relative;
+}
+#albums .thumbnail .caption
+{
+	text-align: center;
+	color: #fff;
+	line-height: 0.8;
+}
+#albums .thumbnail>div
+{
+	position: relative;
+}
+.vinyl
+{
+	position: absolute;
+	top: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 100%;
+	background: url("/David-Chambers/public/img/vinyl.png") center no-repeat;
+	background-size: cover;	
+	z-index: 0;
+}
+.vinyl-show
+{
+	margin-left: 40%;
+	transition: margin-left	1s;
+}
+.disc-player
+{
+	position: absolute;
+	top: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 100%;
+	background: url("/David-Chambers/public/img/play.png") center no-repeat;
+	background-size: cover;
+}
+
+/*
+*
+*	Videos
+*
+*/
+#videos
+{
+	background: url("../img/David-Chambers-Microphone-min.png") center no-repeat;
+	background-size: cover;	
+}
+
+/*
+*
+*	Gallery
+*
+*/
+#gallery
+{
+	background: url("../img/David-Chambers-Black-and-White-Microphone-min.png") center no-repeat;
+	background-size: cover;	
+}
+
+/*
+*
+*	Partners
+*
+*/
+#partners
+{
+	background: url("../img/Background-Black-Stone-min.jpg") center no-repeat;
+	background-size: cover;
+}
+#partnersCarousel > .carousel-inner
+{
+	height: 20vh;
+}
+#partnersCarousel .carousel-caption
+{
+	right: 10%;
+	left: 10%;
+}
+#partnersCarousel .carousel-caption a
+{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+/*
+*
+*	Press
+*
+*/
+#press
+{
+	background: url("../img/David-Chambers-Press.png") center no-repeat;
+	background-size: cover;
+}
+#press h2,
+#press h3
+{
+	color: rgba(255,255,255,1);
+	position: relative;
+}
+
+/*
+*
+*	Contact
+*
+*/
+#contact
+{
+	background: url("../img/David-Chambers-Vintage-Turn-Table-min.png") center no-repeat;
+	background-size: cover;
+}
+
+#contact form input,
+#contact form textarea
+{
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	border: 5px solid white;
+	border-radius: 0;
+}
+#contact form input::placeholder,
+#contact form textarea::placeholder
+{
+	color: white;
+}
+
+#contact form textarea 
+{
+	min-height: 50vh;
 }
