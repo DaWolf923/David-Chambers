@@ -10,13 +10,13 @@ body
 }
 section
 {
-	height: 90vh;
+	min-height: 90vh;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 .mini-section
 {
-	height: 50vh;
+	min-height: 50vh;
 }
 h1
 {
@@ -33,7 +33,7 @@ h2
 }
 p
 {
-	font-size: 22px;
+	font-size: 1.6vw;
 }
 a
 {
@@ -88,7 +88,7 @@ a
 }
 .CTA-button
 {
-	font-size: 32px;
+	font-size: 1.5vw;
 	color: black;
 	background-color: yellow;
 	text-transform: uppercase;
@@ -165,7 +165,6 @@ a
 
 #get-in-touch
 {
-	height: 25vh;
 	background-size: cover;		
 	background-color: blue;
 	background: rgba(0,0,150,0.4);
@@ -282,7 +281,7 @@ a
 }
 #partnersCarousel .carousel-caption a
 {
-	font-size: 20px;
+	font-size: 1.5vw;
 	text-transform: uppercase;
 }
 
